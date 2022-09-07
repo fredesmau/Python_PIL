@@ -1,6 +1,3 @@
-from ast import While
-
-
 print('\n\n### Bienvenido al cajero ###\n\n')
 print('### ¿A qué opción desea ingresar? ###\n\n')
 while True:
@@ -21,38 +18,3 @@ while True:
         break
     else:
         print("El número ingresado no es una opcion")
-
-
-
-"""
-while True:
-
-print("\n\n MENU \n")
-print("1. Deposito")
-print("2. Extraccion")
-print("3. Transferencia")
-print("4. Salir")
-opcion = input("Selecciona una opcion: ")
-
-"""
-
-
-"""
-print('1 - Deposito\n2 - Extranccion\n3 - Transferencia\n4 - Salir')
-opcion = int(input('ingrese la opcion deseada'))
-
-while opcion != 4 :
-if opcion == 1:
-x = int(input('ingrese monto a depositar: '))
-elif opcion == 2:
-x = int(input('ingrese monto a extraer: '))
-elif opcion == 3
-x = int(input('ingrese monto a Transferir: '))
-else:
-print('La opcion ingresada no corresponde')
-print('1 - Deposito\n2 - Extranccion\n3 - Transferencia\n4 - Salir')
-opcion = int(input('ingrese la opcion deseada'))
-
-print('Salio del sistema')
-
-"""
