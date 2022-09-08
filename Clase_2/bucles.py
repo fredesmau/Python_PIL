@@ -1,5 +1,5 @@
 # For
-"""lista = []
+lista = []
 
 for i in range(3):
     
@@ -13,7 +13,7 @@ for i in range(3):
         print('No es un número')
         break
 
-print(lista)"""
+print(lista)
 
 # While
 
